@@ -9,6 +9,8 @@
     "connect-history-api-fallback": "^1.6.0",
     "flowbite": "^2.2.0",
     "gsap": "^3.13.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.2",
     "lodash": "^4.17.21",
     "pinia": "^2.0.0",
     "tailwindcss": "^2.0.0",
