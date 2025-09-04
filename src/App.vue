@@ -79,7 +79,7 @@
     <footer class="bg-white dark:bg-gray-800 shadow">
       <div class="w-full mx-auto max-w-screen-xl p-4 text-center">
         <span class="text-sm text-gray-500 dark:text-gray-400">
-          © {{ new Date().getFullYear() }} Рудин Александр. Все права защищены.
+          © {{ new Date().getFullYear() }} Рудин Александр
         </span>
       </div>
     </footer>
