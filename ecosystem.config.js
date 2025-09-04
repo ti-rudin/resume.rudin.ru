@@ -1,9 +1,9 @@
 module.exports = {
   apps: [{
-    name: 'main-front',
-    cwd: '/home/rudin/samurai-monorepo/main-front',
+    name: 'resume-rudin',
+    cwd: '/home/rudin/resume.rudin.ru',
     script: 'npm',
-    args: 'run dev',
+    args: 'run serve',
     env: {
       NODE_ENV: 'production',
       PORT: 3011
