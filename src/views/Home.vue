@@ -65,7 +65,7 @@
     <!-- Skills -->
     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Навыки</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div class="text-center p-4 border border-gray-200 dark:border-gray-600 rounded-lg">
           <h3 class="font-semibold text-gray-900 dark:text-white">Frontend</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
