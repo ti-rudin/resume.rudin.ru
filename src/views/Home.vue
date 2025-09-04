@@ -56,12 +56,16 @@
         Успешно реализовал множество проектов от концепции до production. Активно изучаю новые технологии
         и применяю лучшие практики разработки. Готов к интересным проектам и сложным задачам.
       </p>
+      <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+        Активно применяю ИИ в программировании, что позволило добиться значительного скачка производительности.
+        Могу заменить целый отдел людей благодаря автоматизации процессов и использованию современных ИИ-инструментов.
+      </p>
     </div>
 
     <!-- Skills -->
     <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
       <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Навыки</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
         <div class="text-center p-4 border border-gray-200 dark:border-gray-600 rounded-lg">
           <h3 class="font-semibold text-gray-900 dark:text-white">Frontend</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
@@ -80,10 +84,11 @@
             Docker, Git, Linux, REST API
           </p>
         </div>
+
         <div class="text-center p-4 border border-gray-200 dark:border-gray-600 rounded-lg">
-          <h3 class="font-semibold text-gray-900 dark:text-white">Дополнительно</h3>
+          <h3 class="font-semibold text-gray-900 dark:text-white">ИИ и Автоматизация</h3>
           <p class="text-sm text-gray-600 dark:text-gray-400 mt-2">
-            Agile/Scrum, Unit Testing, CI/CD
+            ChatGPT, GitHub Copilot, Claude, Yandex GPT, Автоматизация процессов
           </p>
         </div>
       </div>
