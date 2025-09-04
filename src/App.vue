@@ -45,27 +45,7 @@
               </svg>
             </button>
 
-            <!-- Profile button -->
-            <router-link v-if="isAuthenticated" to="/profile" aria-label="Profile"
-              class="p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-700 dark:text-gray-300" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-            </router-link>
-
-        
-
-            <!-- Login/Register buttons for non-authenticated users -->
-            <div v-else class="hidden md:flex items-center space-x-2">
-              <router-link to="/login" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">
-                Войти
-              </router-link>
-    
-            </div>
-
-            <!-- Mobile menu button -->
+            <!-- Mobile menu button 
             <button @click="toggleMobileMenu" aria-label="Toggle Menu"
               class="md:hidden p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
               <svg v-if="!mobileMenuOpen" xmlns="http://www.w3.org/2000/svg"
@@ -77,6 +57,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
+            -->
           </div>
         </div>
       </div>
@@ -98,7 +79,7 @@
     <footer class="bg-white dark:bg-gray-800 shadow">
       <div class="w-full mx-auto max-w-screen-xl p-4 text-center">
         <span class="text-sm text-gray-500 dark:text-gray-400">
-          Автоклуб САМУРАЙ © {{ new Date().getFullYear() }} Все права защищены.
+          © {{ new Date().getFullYear() }} Рудин Александр. Все права защищены.
         </span>
       </div>
     </footer>
@@ -108,30 +89,18 @@
 </template>
 
 <script>
-import { ref, watch, onMounted, computed } from 'vue';
-import { useAuthStore } from '@/stores/auth';
-import { useClientStore } from '@/stores/client';
-import { useRouter } from 'vue-router';
+import { ref, watch, onMounted } from 'vue';
 
 export default {
   name: 'App',
   components: {
   },
   setup() {
-    const authStore = useAuthStore();
-    const clientStore = useClientStore();
-    const router = useRouter();
-
     const isDark = ref(false);
     const mobileMenuOpen = ref(false);
-    const userMenuOpen = ref(false);
-
-    // Computed properties
-    const isAuthenticated = computed(() => authStore.isAuthenticated);
-    const userEmail = computed(() => authStore.userEmail);
 
     // Load theme from localStorage or system preference
-    onMounted(async () => {
+    onMounted(() => {
       const savedTheme = localStorage.getItem('theme');
       if (savedTheme) {
         isDark.value = savedTheme === 'dark';
@@ -139,9 +108,6 @@ export default {
         isDark.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
       }
       updateTheme();
-
-      // Initialize auth
-      await authStore.init();
     });
 
     // Watch and update theme class on html element
@@ -170,37 +136,12 @@ export default {
       mobileMenuOpen.value = false;
     }
 
-    function toggleUserMenu() {
-      userMenuOpen.value = !userMenuOpen.value;
-    }
-
-    function closeUserMenu() {
-      userMenuOpen.value = false;
-    }
-
-    async function handleLogout() {
-      try {
-        await authStore.logout();
-        clientStore.clearData();
-        closeUserMenu();
-        router.push('/');
-      } catch (error) {
-        console.error('Logout error:', error);
-      }
-    }
-
     return {
       isDark,
       mobileMenuOpen,
-      userMenuOpen,
-      isAuthenticated,
-      userEmail,
       toggleTheme,
       toggleMobileMenu,
-      closeMobileMenu,
-      toggleUserMenu,
-      closeUserMenu,
-      handleLogout
+      closeMobileMenu
     };
   },
 };
