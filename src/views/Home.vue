@@ -223,7 +223,7 @@
 
         <div class="bg-white/10 dark:bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 dark:hover:bg-white/20 transition-all duration-300">
           <div class="text-3xl mb-4">🤖</div>
-          <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Автоматизированная система торговли</h3>
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-3">Автоматизированная система торговли криптовалютой</h3>
           <p class="text-gray-700 dark:text-gray-200 mb-4 leading-relaxed">
             Высокопроизводительная система для автоматической торговли с поддержкой неограниченного количества торговых пар.
             Реализована система распределенной очереди.
