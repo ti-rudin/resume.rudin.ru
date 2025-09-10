@@ -1,9 +1,2 @@
-# API Configuration
-VITE_STRAPI_URL=https://strapi.autoclub-samurai.ru
-
-# Domain Configuration for Vite
-VITE_ALLOWED_HOSTS=a.autoclub-samurai.ru,autoclub-samurai.ru,strapi.autoclub-samurai.ru,api.autoclub-samurai.ru
-VITE_MAIN_FRONTEND_DOMAIN=autoclub-samurai.ru
-VITE_ADMIN_FRONTEND_DOMAIN=a.autoclub-samurai.ru
-VITE_STRAPI_DOMAIN=strapi.autoclub-samurai.ru
-VITE_API_DOMAIN=api.autoclub-samurai.ru
+VITE_ALLOWED_HOSTS=resume.rudin.ru,localhost
+VITE_MAIN_FRONTEND_DOMAIN=resume.rudin.ru
