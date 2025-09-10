@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: true,
       allowedHosts: env.VITE_ALLOWED_HOSTS ? env.VITE_ALLOWED_HOSTS.split(',') : ['all'],
-      port: 3011,
+      port: 4011,
       cors: false,
       strictPort: true,
       headers: {
@@ -35,7 +35,7 @@ export default defineConfig(({ mode }) => {
       ]
     },
     preview: {
-      port: 3011,
+      port: 4011,
       allowedHosts: env.VITE_ALLOWED_HOSTS ? env.VITE_ALLOWED_HOSTS.split(',') : ['all'],
     },
     base: '/',
