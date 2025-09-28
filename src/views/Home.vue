@@ -214,11 +214,17 @@
             Интегрированная система управления заказ-нарядами с ИИ. Включает приложения для клиента,
             инженера и менеджера. Автоматизация процессов, аналитика и предиктивное обслуживание.
           </p>
-          <div class="flex flex-wrap gap-2">
+          <div class="flex flex-wrap gap-2 mb-4">
             <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full border border-blue-400">Vue.js</span>
             <span class="px-3 py-1 bg-purple-500 text-white text-xs rounded-full border border-purple-400">Strapi 5</span>
             <span class="px-3 py-1 bg-yellow-500 text-white text-xs rounded-full border border-yellow-400">Yandex GPT</span>
           </div>
+          <a href="https://ti-soft.ru/auto-service-ai" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors duration-200">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            Посмотреть проект
+          </a>
         </div>
 
         <div class="bg-white/10 dark:bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 dark:hover:bg-white/20 transition-all duration-300">
@@ -228,13 +234,19 @@
             Высокопроизводительная система для автоматической торговли с поддержкой неограниченного количества торговых пар.
             Реализована система распределенной очереди.
           </p>
-          <div class="flex flex-wrap gap-2">
+          <div class="flex flex-wrap gap-2 mb-4">
             <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full border border-green-400">Node.js</span>
             <span class="px-3 py-1 bg-blue-500 text-white text-xs rounded-full border border-blue-400">Express.js</span>
             <span class="px-3 py-1 bg-purple-500 text-white text-xs rounded-full border border-purple-400">Binance API</span>
             <span class="px-3 py-1 bg-yellow-500 text-white text-xs rounded-full border border-yellow-400">MongoDB</span>
             <span class="px-3 py-1 bg-red-500 text-white text-xs rounded-full border border-red-400">Redis</span>
           </div>
+          <a href="https://ti-soft.ru/case-binance-tsl" target="_blank" class="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium rounded-lg transition-colors duration-200">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            Посмотреть проект
+          </a>
         </div>
 
         <div class="bg-white/10 dark:bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/15 dark:hover:bg-white/20 transition-all duration-300">
