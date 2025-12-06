@@ -18,6 +18,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       host: true,
+      // Если VITE_ALLOWED_HOSTS не задан, разрешаем все хосты через значение 'all'
       allowedHosts: env.VITE_ALLOWED_HOSTS ? env.VITE_ALLOWED_HOSTS.split(',') : ['all'],
       port: 4011,
       cors: false,
@@ -36,6 +37,7 @@ export default defineConfig(({ mode }) => {
     },
     preview: {
       port: 4011,
+      // Для предпросмотра такая же логика разрешённых хостов
       allowedHosts: env.VITE_ALLOWED_HOSTS ? env.VITE_ALLOWED_HOSTS.split(',') : ['all'],
     },
     base: '/',

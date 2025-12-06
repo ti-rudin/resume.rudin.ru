@@ -1,12 +1,14 @@
 {
   "name": "resume.rudin.ru",
+  "private": true,
   "version": "0.0.1",
-  "description": "resume.rudin.ru",
+  "description": "Шаблон резюме на Vite/Vue",
   "dependencies": {
     "@netlify/edge-functions": "^2.11.1",
     "autoprefixer": "^10.4.21",
     "axios": "^1.8.4",
     "connect-history-api-fallback": "^1.6.0",
+    "dotenv": "^16.4.5",
     "flowbite": "^2.2.0",
     "gsap": "^3.13.0",
     "html2canvas": "^1.4.1",
