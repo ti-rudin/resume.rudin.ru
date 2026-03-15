@@ -10,8 +10,11 @@
           <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-2">
             Рудин Александр
           </h1>
-          <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
-            Full-Stack разработчик
+          <p class="text-lg text-gray-600 dark:text-gray-300 mb-1">
+            Предприниматель & Full-Stack разработчик
+          </p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
+            Генеральный директор ООО «Титаниум Софт» с 2003 года
           </p>
           <div class="flex flex-col sm:flex-row justify-center items-center gap-3 flex-wrap">
             <button @click="downloadPDF" class="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-sm font-medium rounded-md text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
@@ -55,12 +58,14 @@
         <div class="grid md:grid-cols-2 gap-8">
           <div class="space-y-4">
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-              Full-stack разработчик с опытом работы более <span class="text-blue-600 dark:text-blue-400 font-semibold">20-ти лет</span>.
-              Специализируюсь на разработке современных веб-приложений с использованием JavaScript экосистемы.
+              Предприниматель и full-stack разработчик с <span class="text-blue-600 dark:text-blue-400 font-semibold">20+ годами опыта</span> в IT.
+              Основатель и генеральный директор ООО «Титаниум Софт» с 2003 года. Сочетаю глубокую техническую экспертизу
+              с управленческим опытом высшего менеджмента.
             </p>
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-              Успешно реализовал множество проектов от концепции до production. Активно изучаю новые технологии
-              и применяю лучшие практики разработки.
+              В одиночку спроектировал и реализовал <a href="https://tirobots.ru" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">tirobots.ru</a> —
+              полнофункциональную платформу автоматизации контент-маркетинга с ИИ-ядром, Telegram-ботом, Strapi CMS
+              и микросервисной архитектурой. Это демонстрирует уровень технической компетенции, который обычно требует целой команды разработки.
             </p>
           </div>
           <div class="space-y-4">
@@ -69,25 +74,25 @@
               <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>Более 20 лет опыта в разработке</span>
+                  <span>22 года предпринимательства, генеральный директор с 2003 г.</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>50+ успешно реализованных проектов</span>
+                  <span>200+ реализованных проектов (веб-сайты, системы, интеграции)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>Эксперт в современных технологиях</span>
+                  <span>Solo-разработка tirobots.ru — продукт уровня команды</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>Опыт управления командами</span>
+                  <span>Управление командами и клиентскими проектами</span>
                 </li>
               </ul>
             </div>
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
-              Активно применяю <span class="text-blue-600 dark:text-blue-400 font-semibold">ИИ в программировании</span>, что позволило добиться
-              значительного скачка производительности. Могу заменить целый отдел благодаря автоматизации.
+              Активно применяю <span class="text-blue-600 dark:text-blue-400 font-semibold">ИИ в разработке и бизнесе</span> — от генерации контента
+              до автоматизации рабочих процессов. Умею заменить целый отдел благодаря технологическому стеку и автоматизации.
             </p>
           </div>
         </div>
@@ -98,7 +103,7 @@
     <div class="mb-12">
       <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-sm">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 pb-3 border-b border-gray-200 dark:border-gray-700">Навыки</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">Frontend</h3>
             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
@@ -111,27 +116,45 @@
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">Backend</h3>
             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-              Strapi, Node-Red<br>
-              Node.js, Express.js<br>
-              MongoDB, Redis, GraphQL
+              Node.js, Express.js, Strapi<br>
+              MongoDB, PostgreSQL, Redis<br>
+              GraphQL, RabbitMQ, Node-Red
             </p>
           </div>
 
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
-            <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">DevOps & Tools</h3>
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">DevOps & Инфраструктура</h3>
             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-              Docker, Git, Linux<br>
-              REST API<br>
-              Системное администрирование
+              Docker, Traefik, PM2<br>
+              Linux, Git, CI/CD<br>
+              Серверное администрирование
             </p>
           </div>
 
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">ИИ и Автоматизация</h3>
             <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
-              ChatGPT, GitHub Copilot<br>
-              Claude, Yandex GPT<br>
-              Автоматизация процессов
+              Claude, ChatGPT, Yandex GPT<br>
+              AI-агенты, Telegram-боты<br>
+              Автоматизация бизнес-процессов
+            </p>
+          </div>
+
+          <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">Управление и бизнес</h3>
+            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              Стратегическое управление компанией<br>
+              Управление проектами и командами<br>
+              Работа с клиентами, контракты
+            </p>
+          </div>
+
+          <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-5 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
+            <h3 class="font-semibold text-gray-900 dark:text-white mb-3 text-base">Продуктовое мышление</h3>
+            <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+              От идеи до production<br>
+              Архитектура сложных систем<br>
+              Контент-маркетинг, SEO
             </p>
           </div>
         </div>
@@ -143,35 +166,49 @@
       <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-sm">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 pb-3 border-b border-gray-200 dark:border-gray-700">Опыт работы</h2>
         <div class="space-y-4">
-          <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-6 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
+          <!-- Титаниум Софт -->
+          <div class="bg-gray-50 dark:bg-gray-700 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6">
             <div class="mb-4">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Самозанятый разработчик</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Самозанятый • 2025 - настоящее время</p>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Основатель и Генеральный директор</h3>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">ООО «Титаниум Софт» (ti-soft.ru) • 2003 - настоящее время</p>
             </div>
+            <p class="text-gray-700 dark:text-gray-300 text-sm mb-3 leading-relaxed">
+              Собственная IT-компания, через которую реализованы все проекты ниже.
+              200+ веб-сайтов и систем, выполненных силами моей команды и лично.
+            </p>
             <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Разработка веб-приложений и систем автоматизации</span>
+                <span>Стратегическое управление компанией, финансы, юридические вопросы</span>
               </li>
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Создание высоконагруженных торговых систем</span>
+                <span>Ведение переговоров, заключение контрактов, работа с крупными заказчиками</span>
               </li>
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Интеграция с внешними API и сервисами</span>
+                <span>Управление командой разработчиков, дизайнеров, контент-менеджеров</span>
               </li>
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Консультации по техническим решениям</span>
+                <span>Архитектура и техническое руководство проектами</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
+                <span>Разработка собственных продуктов (tirobots.ru, samuraiai.ru)</span>
               </li>
             </ul>
           </div>
 
+          <!-- Контракты -->
+          <div class="mt-4 mb-2">
+            <p class="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider font-medium">Ключевые контракты через ООО «Титаниум Софт»</p>
+          </div>
+
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-6 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <div class="mb-4">
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Фронтенд-программист</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">БЕРГ (оптовая продажа запчастей) • 2022 - 2025</p>
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Frontend-разработка</h3>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">БЕРГ (оптовая продажа запчастей) • контракт 2022 - 2025</p>
             </div>
             <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
               <li class="flex items-start">
@@ -186,17 +223,13 @@
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
                 <span>Оптимизация интерфейсов для работы с большим объемом данных</span>
               </li>
-              <li class="flex items-start">
-                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Работа по контракту</span>
-              </li>
             </ul>
           </div>
 
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-6 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <div class="mb-4">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Руководитель веб-отдела</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Визард (Тверь) • 2020</p>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Визард (Тверь) • контракт 2020</p>
             </div>
             <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
               <li class="flex items-start">
@@ -211,30 +244,22 @@
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
                 <span>Внедрение новых технологий и методологий</span>
               </li>
-              <li class="flex items-start">
-                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Контроль качества и сроков выполнения работ</span>
-              </li>
             </ul>
           </div>
 
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-6 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <div class="mb-4">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Системный администратор</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">SAF-HOLLAND • 2005 - 2022</p>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">SAF-HOLLAND • контракт 2005 - 2022</p>
             </div>
             <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Администрирование серверной инфраструктуры</span>
+                <span>Администрирование серверной инфраструктуры предприятия</span>
               </li>
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Поддержка и оптимизация IT-систем предприятия</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Обеспечение бесперебойной работы корпоративных сервисов</span>
+                <span>Поддержка и оптимизация IT-систем, обеспечение бесперебойной работы</span>
               </li>
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
@@ -251,14 +276,44 @@
       <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-sm">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 pb-3 border-b border-gray-200 dark:border-gray-700">Проекты</h2>
         <p class="text-gray-600 dark:text-gray-400 text-sm mb-6 mt-2">
-          Полностью разработаны мной самостоятельно
+          Собственные продукты, разработанные мной самостоятельно
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- tirobots.ru — флагманский проект -->
+          <div class="bg-gray-50 dark:bg-gray-700 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6 md:col-span-2">
+            <div class="flex items-center gap-2 mb-3">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">TiRobots — платформа автоматизации контент-маркетинга</h3>
+              <span class="px-2 py-0.5 bg-blue-600 text-white text-xs rounded font-medium">флагман</span>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-sm">
+              Полнофункциональная SaaS-платформа, разработанная <span class="font-semibold">в одиночку</span> от архитектуры до production.
+              ИИ-ядро для генерации контента, Telegram-бот с диалоговым агентом, Strapi 5 CMS, микросервисная архитектура
+              с RabbitMQ, система webhook'ов, админ-панель, мультиплатформенная публикация (Telegram, ВКонтакте, Дзен, Хабр).
+              Продукт уровня, который обычно создаёт команда из 5-10 разработчиков.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Vue.js</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Strapi 5</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Node.js</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">RabbitMQ</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">PostgreSQL</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Telegram Bot API</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Claude AI</span>
+              <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Docker</span>
+            </div>
+            <a href="https://tirobots.ru" target="_blank" class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors">
+              <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+              </svg>
+              Посмотреть проект
+            </a>
+          </div>
+
           <div class="bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg p-6 hover:border-blue-300 dark:hover:border-blue-600 transition-colors">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">AI-Журналист САМУРАЙ</h3>
             <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-sm">
-              Платформа для автоматизации создания контента с использованием искусственного интеллекта.
-              Генерация постов с изображениями, публикация на различных площадках, управление медиатекой и планирование публикаций.
+              Платформа для автоматизации создания контента с использованием ИИ.
+              Генерация постов с изображениями, публикация на различных площадках, управление медиатекой.
             </p>
             <div class="flex flex-wrap gap-2 mb-4">
               <span class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs rounded border border-blue-200 dark:border-blue-800">Vue.js</span>
@@ -350,7 +405,7 @@
       <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-sm">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3 pb-3 border-b border-gray-200 dark:border-gray-700">Связаться со мной</h2>
         <p class="text-gray-700 dark:text-gray-300 mb-6 text-sm">
-          Готов обсудить интересные проекты и возможности сотрудничества
+          Открыт к сотрудничеству — от технических проектов до стратегического консалтинга
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-3 flex-wrap">
           <a href="mailto:ax.rudin@gmail.com" class="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-sm font-medium rounded-md text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
