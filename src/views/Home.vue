@@ -59,7 +59,7 @@
           <div class="space-y-4">
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
               Предприниматель и full-stack разработчик с <span class="text-blue-600 dark:text-blue-400 font-semibold">20+ годами опыта</span> в IT.
-              С 2003 по 2024 год — основатель и генеральный директор ООО «Титаниум Софт». Сейчас работаю как самозанятый,
+              С 2003 по 2025 год — основатель и генеральный директор ООО «Титаниум Софт». Сейчас работаю как самозанятый,
               сочетая глубокую техническую экспертизу с управленческим опытом высшего менеджмента.
             </p>
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -74,7 +74,7 @@
               <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>20+ лет предпринимательства, CEO «Титаниум Софт» (2003-2024)</span>
+                  <span>20+ лет предпринимательства, CEO «Титаниум Софт» (2003-2025)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
@@ -192,7 +192,7 @@
           <div class="bg-gray-50 dark:bg-gray-700 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6">
             <div class="mb-4">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Основатель и Генеральный директор</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">ООО «Титаниум Софт» (ti-soft.ru) • 2003 - 2024</p>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">ООО «Титаниум Софт» (ti-soft.ru) • 2003 - 2025</p>
             </div>
             <p class="text-gray-700 dark:text-gray-300 text-sm mb-3 leading-relaxed">
               Собственная IT-компания. 200+ веб-сайтов и систем, выполненных силами моей команды и лично.

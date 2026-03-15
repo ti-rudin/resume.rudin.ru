@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Александр Рудин — Резюме</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a1a; line-height: 1.5; font-size: 11px; padding: 40px 50px; }
+
+  .header { display: flex; gap: 24px; margin-bottom: 24px; padding-bottom: 20px; border-bottom: 2px solid #2563eb; }
+  .header-photo { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #ddd; flex-shrink: 0; }
+  .header-info { flex: 1; }
+  .header-name { font-size: 24px; font-weight: 700; color: #111; margin-bottom: 2px; }
+  .header-title { font-size: 13px; color: #2563eb; font-weight: 600; margin-bottom: 2px; }
+  .header-subtitle { font-size: 11px; color: #666; margin-bottom: 10px; }
+  .header-contacts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 10px; color: #444; }
+  .header-contacts a { color: #2563eb; text-decoration: none; }
+
+  h2 { font-size: 14px; font-weight: 700; color: #111; margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid #e5e7eb; }
+  .section { margin-bottom: 18px; }
+
+  .about-text { color: #333; margin-bottom: 6px; }
+
+  .achievements { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 16px; margin-top: 8px; }
+  .achievement { display: flex; align-items: flex-start; gap: 6px; }
+  .achievement-dot { color: #2563eb; font-weight: bold; flex-shrink: 0; }
+
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+  .skill-group h3 { font-size: 11px; font-weight: 700; color: #2563eb; margin-bottom: 3px; }
+  .skill-group p { color: #444; font-size: 10px; line-height: 1.5; }
+
+  .exp-item { margin-bottom: 14px; }
+  .exp-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
+  .exp-role { font-size: 12px; font-weight: 700; color: #111; }
+  .exp-dates { font-size: 10px; color: #666; white-space: nowrap; }
+  .exp-company { font-size: 11px; color: #2563eb; font-weight: 600; margin-bottom: 4px; }
+  .exp-desc { color: #444; margin-bottom: 4px; font-size: 10.5px; }
+  .exp-list { list-style: none; padding: 0; }
+  .exp-list li { padding-left: 12px; position: relative; color: #333; margin-bottom: 2px; }
+  .exp-list li::before { content: "•"; color: #2563eb; position: absolute; left: 0; font-weight: bold; }
+
+  .exp-featured { background: #f0f5ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 10px 12px; margin-bottom: 14px; }
+  .exp-featured .exp-role { font-size: 13px; }
+
+  .contract-label { font-size: 9px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 8px; margin-top: 4px; }
+
+  .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .project { border: 1px solid #e5e7eb; border-radius: 6px; padding: 8px 10px; }
+  .project-featured { grid-column: 1 / -1; border-color: #bfdbfe; background: #f0f5ff; }
+  .project h3 { font-size: 11px; font-weight: 700; color: #111; margin-bottom: 3px; }
+  .project p { font-size: 10px; color: #444; margin-bottom: 4px; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 3px; }
+  .project-tag { font-size: 9px; background: #e0ecff; color: #1d4ed8; padding: 1px 5px; border-radius: 3px; }
+  .project-url { font-size: 9px; color: #2563eb; text-decoration: none; }
+
+  .edu-item { margin-bottom: 6px; }
+  .edu-name { font-weight: 700; font-size: 11px; }
+  .edu-details { color: #666; font-size: 10px; }
+
+  @media print {
+    body { padding: 20px 30px; }
+    .exp-featured { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .project-featured { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <img src="rudin.jpeg" class="header-photo" alt="Фото">
+  <div class="header-info">
+    <div class="header-name">Александр Рудин</div>
+    <div class="header-title">Предприниматель & Full-Stack разработчик</div>
+    <div class="header-subtitle">20+ лет в IT — от генерального директора до solo-разработчика продуктов</div>
+    <div class="header-contacts">
+      <span>Тверь, Россия</span>
+      <span>|</span>
+      <a href="mailto:ax.rudin@gmail.com">ax.rudin@gmail.com</a>
+      <span>|</span>
+      <span>+7 (965) 105-02-11</span>
+      <span>|</span>
+      <a href="https://t.me/a_rudin">@a_rudin</a>
+      <span>|</span>
+      <a href="https://github.com/ti-rudin">github.com/ti-rudin</a>
+      <span>|</span>
+      <a href="https://resume.rudin.ru">resume.rudin.ru</a>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div class="section">
+  <h2>Обо мне</h2>
+  <p class="about-text">
+    Предприниматель и full-stack разработчик с 20+ годами опыта в IT. С 2003 по 2025 год — основатель и генеральный директор ООО «Титаниум Софт». Сейчас работаю как самозанятый. Сочетаю глубокую техническую экспертизу с управленческим опытом высшего менеджмента.
+  </p>
+  <p class="about-text">
+    В одиночку спроектировал и реализовал tirobots.ru — полнофункциональную SaaS-платформу автоматизации контент-маркетинга с ИИ-ядром, Telegram-ботом, Strapi CMS и микросервисной архитектурой. Это демонстрирует уровень технической компетенции, который обычно требует целой команды разработки.
+  </p>
+  <div class="achievements">
+    <div class="achievement"><span class="achievement-dot">&#x2022;</span> 20+ лет предпринимательства, CEO «Титаниум Софт» (2003-2025)</div>
+    <div class="achievement"><span class="achievement-dot">&#x2022;</span> Solo-разработка tirobots.ru — продукт уровня команды</div>
+    <div class="achievement"><span class="achievement-dot">&#x2022;</span> 200+ реализованных проектов (веб-сайты, системы, интеграции)</div>
+    <div class="achievement"><span class="achievement-dot">&#x2022;</span> Активное применение ИИ в разработке и бизнесе</div>
+  </div>
+</div>
+
+<!-- Skills -->
+<div class="section">
+  <h2>Навыки</h2>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Frontend</h3>
+      <p>Vue.js, Svelte, React, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS</p>
+    </div>
+    <div class="skill-group">
+      <h3>Backend</h3>
+      <p>Node.js, Express.js, Strapi, MongoDB, PostgreSQL, Redis, GraphQL, RabbitMQ</p>
+    </div>
+    <div class="skill-group">
+      <h3>DevOps & Инфраструктура</h3>
+      <p>Docker, Traefik, PM2, Linux, Git, CI/CD, серверное администрирование</p>
+    </div>
+    <div class="skill-group">
+      <h3>ИИ и Автоматизация</h3>
+      <p>Claude, ChatGPT, Yandex GPT, AI-агенты, Telegram-боты</p>
+    </div>
+    <div class="skill-group">
+      <h3>Управление и бизнес</h3>
+      <p>Стратегическое управление, управление проектами и командами, контракты</p>
+    </div>
+    <div class="skill-group">
+      <h3>Продуктовое мышление</h3>
+      <p>От идеи до production, архитектура сложных систем, контент-маркетинг</p>
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+<div class="section">
+  <h2>Опыт работы</h2>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-role">Самозанятый разработчик и консультант</span>
+      <span class="exp-dates">2025 — настоящее время</span>
+    </div>
+    <ul class="exp-list">
+      <li>Разработка собственных продуктов (tirobots.ru — платформа автоматизации контент-маркетинга)</li>
+      <li>Заказная веб-разработка и технический консалтинг</li>
+      <li>Автоматизация бизнес-процессов с применением ИИ</li>
+    </ul>
+  </div>
+
+  <div class="exp-featured">
+    <div class="exp-header">
+      <span class="exp-role">Основатель и Генеральный директор</span>
+      <span class="exp-dates">2003 — 2025</span>
+    </div>
+    <div class="exp-company">ООО «Титаниум Софт» (ti-soft.ru)</div>
+    <p class="exp-desc">Собственная IT-компания. 200+ веб-сайтов и систем, выполненных силами моей команды и лично. Все контракты ниже реализованы через это юрлицо.</p>
+    <ul class="exp-list">
+      <li>Стратегическое управление компанией, финансы, юридические вопросы</li>
+      <li>Ведение переговоров, заключение контрактов, работа с крупными заказчиками</li>
+      <li>Управление командой разработчиков, дизайнеров, контент-менеджеров</li>
+      <li>Архитектура и техническое руководство проектами</li>
+    </ul>
+  </div>
+
+  <div class="contract-label">Ключевые контракты через ООО «Титаниум Софт»</div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-role">Frontend-разработка</span>
+      <span class="exp-dates">2022 — 2025</span>
+    </div>
+    <div class="exp-company">БЕРГ (оптовая продажа запчастей) • контракт</div>
+    <ul class="exp-list">
+      <li>Разработка пользовательских интерфейсов для внутренних систем</li>
+      <li>Интеграция с системами учета и складского управления</li>
+      <li>Оптимизация интерфейсов для работы с большим объемом данных</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-role">Руководитель веб-отдела</span>
+      <span class="exp-dates">2020</span>
+    </div>
+    <div class="exp-company">Визард (Тверь) • контракт</div>
+    <ul class="exp-list">
+      <li>Управление командой веб-разработчиков</li>
+      <li>Планирование и координация веб-проектов</li>
+      <li>Внедрение новых технологий и методологий</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-header">
+      <span class="exp-role">Системный администратор</span>
+      <span class="exp-dates">2005 — 2022</span>
+    </div>
+    <div class="exp-company">SAF-HOLLAND • контракт</div>
+    <ul class="exp-list">
+      <li>Администрирование серверной инфраструктуры предприятия</li>
+      <li>Поддержка и оптимизация IT-систем, обеспечение бесперебойной работы</li>
+      <li>Внедрение систем мониторинга и резервного копирования</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Projects -->
+<div class="section">
+  <h2>Собственные проекты</h2>
+  <div class="projects-grid">
+    <div class="project project-featured">
+      <h3>TiRobots — платформа автоматизации контент-маркетинга <a href="https://tirobots.ru" class="project-url">tirobots.ru</a></h3>
+      <p>SaaS-платформа, разработанная в одиночку. ИИ-ядро, Telegram-бот с диалоговым агентом, Strapi 5 CMS, микросервисная архитектура с RabbitMQ, мультиплатформенная публикация.</p>
+      <div class="project-tags">
+        <span class="project-tag">Vue.js</span>
+        <span class="project-tag">Strapi 5</span>
+        <span class="project-tag">Node.js</span>
+        <span class="project-tag">RabbitMQ</span>
+        <span class="project-tag">PostgreSQL</span>
+        <span class="project-tag">Claude AI</span>
+        <span class="project-tag">Docker</span>
+      </div>
+    </div>
+    <div class="project">
+      <h3>AI-Журналист САМУРАЙ <a href="https://samuraiai.ru/about" class="project-url">samuraiai.ru</a></h3>
+      <p>Платформа автоматизации создания контента с ИИ. Генерация постов, публикация на площадках.</p>
+      <div class="project-tags">
+        <span class="project-tag">Vue.js</span>
+        <span class="project-tag">Node.js</span>
+        <span class="project-tag">ИИ</span>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Автосервис AI <a href="https://ti-soft.ru/auto-service-ai" class="project-url">ti-soft.ru</a></h3>
+      <p>Система управления заказ-нарядами с ИИ. Приложения для клиента, инженера и менеджера.</p>
+      <div class="project-tags">
+        <span class="project-tag">Vue.js</span>
+        <span class="project-tag">Strapi 5</span>
+        <span class="project-tag">Yandex GPT</span>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Система торговли криптовалютой</h3>
+      <p>Высокопроизводительная система автоматической торговли на Binance с распределенной очередью.</p>
+      <div class="project-tags">
+        <span class="project-tag">Node.js</span>
+        <span class="project-tag">Binance API</span>
+        <span class="project-tag">MongoDB</span>
+        <span class="project-tag">Redis</span>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Умный дом</h3>
+      <p>Автоматизация помещений на базе WirenBoard. Освещение, отопление, безопасность.</p>
+      <div class="project-tags">
+        <span class="project-tag">Node.js</span>
+        <span class="project-tag">MQTT</span>
+        <span class="project-tag">WirenBoard</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Education -->
+<div class="section">
+  <h2>Образование</h2>
+  <div class="edu-item">
+    <div class="edu-name">Московский авиационный технологический институт им. К.Э. Циолковского</div>
+    <div class="edu-details">Информационные системы и технологии. Специализация — проектирование вычислительных комплексов. 1995 — 1999, Москва</div>
+  </div>
+</div>
+
+</body>
+</html>
