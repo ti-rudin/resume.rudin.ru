@@ -14,7 +14,7 @@
             Предприниматель & Full-Stack разработчик
           </p>
           <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">
-            Генеральный директор ООО «Титаниум Софт» с 2003 года
+            20+ лет в IT — от генерального директора до solo-разработчика продуктов
           </p>
           <div class="flex flex-col sm:flex-row justify-center items-center gap-3 flex-wrap">
             <button @click="downloadPDF" class="inline-flex items-center px-4 py-2 border border-gray-300 dark:border-gray-600 text-sm font-medium rounded-md text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
@@ -59,8 +59,8 @@
           <div class="space-y-4">
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
               Предприниматель и full-stack разработчик с <span class="text-blue-600 dark:text-blue-400 font-semibold">20+ годами опыта</span> в IT.
-              Основатель и генеральный директор ООО «Титаниум Софт» с 2003 года. Сочетаю глубокую техническую экспертизу
-              с управленческим опытом высшего менеджмента.
+              С 2003 по 2024 год — основатель и генеральный директор ООО «Титаниум Софт». Сейчас работаю как самозанятый,
+              сочетая глубокую техническую экспертизу с управленческим опытом высшего менеджмента.
             </p>
             <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
               В одиночку спроектировал и реализовал <a href="https://tirobots.ru" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">tirobots.ru</a> —
@@ -74,7 +74,7 @@
               <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                  <span>22 года предпринимательства, генеральный директор с 2003 г.</span>
+                  <span>20+ лет предпринимательства, CEO «Титаниум Софт» (2003-2024)</span>
                 </li>
                 <li class="flex items-start">
                   <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
@@ -166,15 +166,37 @@
       <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 shadow-sm">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 pb-3 border-b border-gray-200 dark:border-gray-700">Опыт работы</h2>
         <div class="space-y-4">
+          <!-- Самозанятый -->
+          <div class="bg-gray-50 dark:bg-gray-700 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6">
+            <div class="mb-4">
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Самозанятый разработчик и консультант</h3>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">2025 - настоящее время</p>
+            </div>
+            <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
+              <li class="flex items-start">
+                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
+                <span>Разработка собственных продуктов (tirobots.ru — платформа автоматизации контент-маркетинга)</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
+                <span>Заказная веб-разработка и технический консалтинг</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
+                <span>Автоматизация бизнес-процессов с применением ИИ</span>
+              </li>
+            </ul>
+          </div>
+
           <!-- Титаниум Софт -->
           <div class="bg-gray-50 dark:bg-gray-700 border-2 border-blue-200 dark:border-blue-700 rounded-lg p-6">
             <div class="mb-4">
               <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Основатель и Генеральный директор</h3>
-              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">ООО «Титаниум Софт» (ti-soft.ru) • 2003 - настоящее время</p>
+              <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">ООО «Титаниум Софт» (ti-soft.ru) • 2003 - 2024</p>
             </div>
             <p class="text-gray-700 dark:text-gray-300 text-sm mb-3 leading-relaxed">
-              Собственная IT-компания, через которую реализованы все проекты ниже.
-              200+ веб-сайтов и систем, выполненных силами моей команды и лично.
+              Собственная IT-компания. 200+ веб-сайтов и систем, выполненных силами моей команды и лично.
+              Все контракты ниже реализованы через это юрлицо.
             </p>
             <ul class="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
               <li class="flex items-start">
@@ -192,10 +214,6 @@
               <li class="flex items-start">
                 <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
                 <span>Архитектура и техническое руководство проектами</span>
-              </li>
-              <li class="flex items-start">
-                <span class="text-blue-600 dark:text-blue-400 mr-2 mt-1">•</span>
-                <span>Разработка собственных продуктов (tirobots.ru, samuraiai.ru)</span>
               </li>
             </ul>
           </div>
